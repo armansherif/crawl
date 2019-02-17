@@ -13,8 +13,8 @@ import urllib.error
 
 import praw
 
-reddit = praw.Reddit(client_id='i5H_O1HPVTCz_A', client_secret="pVwhD0HTqIWlKC8XEAeed_AR-oE", user_agent='crawler',
-                     username='Valandarian', password='margara1') #insert client information here
+reddit = praw.Reddit(client_id='', client_secret="", user_agent='',
+                     username='', password='') #insert client information here
 
 def fix(text):
     text = text.decode("ascii", "ignore")
